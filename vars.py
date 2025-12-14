@@ -2,18 +2,18 @@ import os
 from os import environ
 
 # API Configuration
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+API_ID = int(os.environ.get("API_ID", "30643048"))
+API_HASH = os.environ.get("API_HASH", "815c0cef363ae64f03ab1e010c2c44b6")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8219390072:AAFzuay6F_AmNknU3PZJovO-5mDOwQAi7JM")
 
 CREDIT = os.environ.get("CREDIT", "⌯ @Ecourse_Trusted")
 # MongoDB Configuration
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "DevThanos")
-DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://samsan174836_db_user:samsan174836_db_user@cluster0.pelz60s.mongodb.net/?appName=Cluster0")  # Add your own atlas db
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://pcshivamtyagi_db_user:kop2kiC3FMEeXFFw@shivam123.khnn2ay.mongodb.net/?appName=shivam123")  # Add your own atlas db
 MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
-OWNER_ID = int(os.environ.get("OWNER_ID", "6397973558"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "8351167629"))
 ADMINS = [int(x) for x in os.environ.get("ADMINS", "8415532545").split()]  # Default to owner ID
 # Thumbnail Configuration
 THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "https://graph.org/file/24580deb849bcefa527c9-3307e29872561ff2ef.jpg").split())) # Image Link For Default Thumbnail 
@@ -56,6 +56,7 @@ Please contact the admin @ItsUGBot to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
 
 
