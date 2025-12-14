@@ -803,7 +803,7 @@ async def txt_handler(bot: Client, m: Message):
                 response = requests.get('https://api.classplusapp.com/cams/uploader/video/jw-signed-url', headers=headers, params=params)
                 url   = response.json()['url']
 
-            elif "childId" in url and "parentId" in url:
+            elif "d1d34p8vz63oiq.cloudfront.net" in url and "master.mpd" in url:
                 url = f"https://anonymouspwplayer-25261acd1521.herokuapp.com/pw?url={url}token={raw_text4}"
 
             if "edge.api.brightcove.com" in url:
